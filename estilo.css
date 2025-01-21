@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img#img-logo {
+    width: 100px;
+    margin: 25px 0px 25px 25px;
+}
+
+img#img-apresentacao {
+    width: 100vw;
+}
