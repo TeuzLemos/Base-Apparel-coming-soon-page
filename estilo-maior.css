@@ -8,8 +8,7 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    
     font-family: 'Josefin Sans',sans-serif;
     background-image: url(images/bg-pattern-desktop.svg);
     background-attachment: scroll;
@@ -23,9 +22,30 @@ img#img-logo {
     margin: 25px 0px 25px 25px;
 }
 
-img#img-apresentacao {
-    width: 100vw;
-    margin-bottom: 50px;
+section.flex-content {
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+
+   width: 100vw;
+   height: 100vh;
+
+}
+
+div.imagem {
+   display: flex;
+   justify-content: flex-end
+}
+
+img {
+   align-items: stretch;
+   height: 100vh;
 }
 
 h1 {
@@ -33,6 +53,10 @@ h1 {
     font-weight: 300;
     letter-spacing: 10px;
     color: hsl(0, 28%, 73%);
+}
+
+div.text {
+   flex-basis: 500px;
 }
 
 span {

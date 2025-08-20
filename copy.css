@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.flex-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+h1 {
+    text-align: justify;
+    font-size: 3.5em;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: hsl(0, 28%, 73%);
+}
+
+div.text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+}
+
+span {
+    font-weight: 600;
+    color: black;
+}
+
+p {
+    margin-left: 90px ;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    text-align: justify;
+    color: hsl(0, 28%, 73%);
+    width: 490px;
+}
+
+div.imagem {
+    flex-basis: 500px;
+}
+
+
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input#email {
+    width: 275px;
+    height: 25px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 50px;
+    background-color: transparent;
+}
