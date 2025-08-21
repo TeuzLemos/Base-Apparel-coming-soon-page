@@ -24,8 +24,7 @@ section.flex-content {
 
 section.media-text {
     display: flex;
-    flex-flow: row wrap-reverse;
-    justify-content: space-between;
+    flex-flow: row-reverse wrap-reverse;
     align-items: center;
 
     width: 100vw;
@@ -33,18 +32,20 @@ section.media-text {
 
 }
 
-h1 {
-    text-align: justify;
-    font-size: 3.5em;
-    font-weight: 300;
-    letter-spacing: 10px;
-    color: hsl(0, 28%, 73%);
-}
-
 div.text {
     display: flex;
     flex-flow: column nowrap;
-    align-items: end;
+    margin: auto;
+   
+}
+
+h1 {
+    text-align: justify;
+    font-size: 4.5em;
+    font-weight: 300;
+    /* margin-left: 90px; */
+    letter-spacing: 10px;
+    color: hsl(0, 50%, 73%);
 }
 
 span {
@@ -53,19 +54,18 @@ span {
 }
 
 p {
-    margin-left: 90px ;
+    /* margin-left: 90px ; */
     font-size: 1.1em;
-    line-height: 1.4em;
+    line-height: 1.7em;
     text-align: justify;
     color: hsl(0, 28%, 73%);
-    width: 490px;
+    width: 468px;
 }
 
-div.imagem {
-    flex-basis: 500px;
+div.imagem > img {
+    width: 40vw;
+    height: 100vh;
 }
-
-
 
 form {
     display: flex;
