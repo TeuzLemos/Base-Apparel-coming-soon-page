@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>copy</title>
     <link rel="stylesheet" href="copy.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1200px)">
 </head>
 
 <body>
     <section class="media-text">
-        <div class="imagem">
-            <img src="images/hero-desktop.jpg" alt="imagem de apresentaçaõ" id="img-apresentacao">
-        </div>
+       <picture>
+            <source media="(max-width:649px )" srcset="imagens/hero-mobile.jpg">
+             <source media="(min-width:650px )" srcset="imagens/hero-desktop.jpg">
+            <img src="imagens/hero-desktop.jpg" alt="imagem modelo">
+       </picture>
          <div class="text">
                 <h1>WE'RE <br><span>COMING<br>SOON</span></h1>
                 <p>
@@ -20,6 +23,9 @@
                     stay
                     up-to-date with announcements and our launch deals.
                 </p>
+        </div>
+        <div class="logo">
+            <img src="imagens/logo.svg" alt="">
         </div>
     </section>
 </body>

@@ -1,0 +1,8 @@
+section.media-text {
+    flex-flow: column wrap-reverse;
+}
+
+picture > img {
+    width: 50vw;
+    height: 50vh;
+}

@@ -10,16 +10,11 @@
 body {
 
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(images/bg-pattern-desktop.svg);
+    background-image: url(imagens/bg-pattern-desktop.svg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-section.flex-content {
-    display: flex;
-    flex-flow: column nowrap;
 }
 
 section.media-text {
@@ -34,18 +29,18 @@ section.media-text {
 
 div.text {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     margin: auto;
-   
+    max-width: 40vw;
+    min-width: 30vw;
 }
 
 h1 {
     text-align: justify;
-    font-size: 4.5em;
-    font-weight: 300;
-    /* margin-left: 90px; */
-    letter-spacing: 10px;
-    color: hsl(0, 50%, 73%);
+    font-size: 5vw;
+    font-weight: 200;
+    letter-spacing: 0.7vw;
+    color: hsl(0, 36%, 65%);
 }
 
 span {
@@ -54,17 +49,22 @@ span {
 }
 
 p {
-    /* margin-left: 90px ; */
-    font-size: 1.1em;
+    
+    font-size: 1.2vw;
     line-height: 1.7em;
     text-align: justify;
     color: hsl(0, 28%, 73%);
-    width: 468px;
+    max-width: 100%;
 }
 
-div.imagem > img {
+ picture > img {
     width: 40vw;
     height: 100vh;
+}
+
+div.logo {
+    align-self: flex-end;
+    margin: 20px 0px 0px 20px;
 }
 
 form {
