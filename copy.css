@@ -17,7 +17,7 @@ body {
     background-size: cover;
 }
 
-section.media-text {
+main.media-text {
     display: flex;
     flex-flow: row-reverse wrap-reverse;
     align-items: center;
@@ -29,7 +29,7 @@ section.media-text {
 
 div.text {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     margin: auto;
     max-width: 40vw;
     min-width: 30vw;
@@ -37,9 +37,9 @@ div.text {
 
 h1 {
     text-align: justify;
-    font-size: 5vw;
+    font-size: 100px;
     font-weight: 200;
-    letter-spacing: 0.7vw;
+    letter-spacing: 30px;
     color: hsl(0, 36%, 65%);
 }
 
@@ -49,22 +49,25 @@ span {
 }
 
 p {
-    
-    font-size: 1.2vw;
+    font-size: 25px;
     line-height: 1.7em;
     text-align: justify;
     color: hsl(0, 28%, 73%);
-    max-width: 100%;
+    max-width: 665px;
 }
 
  picture > img {
     width: 40vw;
     height: 100vh;
+    object-fit: cover; /* recorta sem distorcer */
 }
 
-div.logo {
-    align-self: flex-end;
-    margin: 20px 0px 0px 20px;
+.logo {
+    position: absolute;
+    top: 5vw;
+    left: 31vh;
+    height: auto;
+    width: 220px;
 }
 
 form {
