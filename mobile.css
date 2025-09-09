@@ -1,5 +1,6 @@
 main.media-text {
     flex-flow: column wrap-reverse;
+    height: auto;
 }
 
 picture > img {
