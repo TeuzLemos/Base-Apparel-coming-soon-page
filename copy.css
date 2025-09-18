@@ -62,7 +62,6 @@ picture>img {
     width: 40vw;
     height: 100vh;
     object-fit: cover;
-    /* recorta sem distorcer */
 }
 
 .logo {
@@ -71,6 +70,10 @@ picture>img {
     left: 31vh;
     height: auto;
     width: 220px;
+}
+
+.logo-mobile {
+    display: none;
 }
 
 form.form {
@@ -120,8 +123,6 @@ form.error input {
     align-items: center;
     width: 115px;
     height: 100%;
-    /* top: -6.3vh; */
-    /* left: 34vw; */
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
@@ -134,10 +135,7 @@ form.error input {
     cursor: pointer;
 }
 
-
-
-/* #button:hover {
+#button:hover {
     width: 70px;
     height: 56px;
 }
- */
