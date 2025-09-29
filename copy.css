@@ -38,7 +38,8 @@ div.text {
 
 h1 {
     text-align: justify;
-    font-size: 100px;
+    font-size: 73px; 
+    /* 73 */
     font-weight: 200;
     letter-spacing: 30px;
     color: hsl(0, 36%, 65%);
@@ -50,7 +51,8 @@ span {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
+    /* 20 */
     line-height: 1.7em;
     text-align: justify;
     color: hsl(0, 28%, 73%);
@@ -69,7 +71,8 @@ picture>img {
     top: 5vw;
     left: 31vh;
     height: auto;
-    width: 220px;
+    width: 175px;
+    /* 175 */
 }
 
 .logo-mobile {
@@ -80,7 +83,8 @@ form.form {
     display: flex;
     align-items: center;
     max-width: 595px;
-    height: 70px;
+    height: 55px;
+    /* 55 */
     margin-top: 20px;
     border: 1px solid hsl(0, 21%, 80%);
     border-radius: 50px;
@@ -92,7 +96,8 @@ input#email {
     flex: 1;
     height: 50px;
     border: none;
-    font-size: 1.6em;
+    font-size: 1.2em;
+    /* 1.2 */
     padding: 30px;
     background-color: transparent;
     box-shadow: none;
