@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(imagens/bg-pattern-desktop.svg);
     background-attachment: scroll;
