@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+     transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -53,7 +54,7 @@ p {
     line-height: 1.7em;
     text-align: justify;
     color: hsl(0, 28%, 73%);
-    max-width: 532px;
+    max-width: 501px;
     margin: 35px 0px;
 }
 
@@ -79,7 +80,7 @@ form.form {
     display: flex;
     align-items: center;
     max-width: 595px;
-    height: 55px;
+    height: 60px;
     margin-top: 20px;
     border: 1px solid hsl(0, 21%, 80%);
     border-radius: 50px;
@@ -135,6 +136,26 @@ form.error input {
 }
 
 #button:hover {
-    width: 70px;
-    height: 56px;
+    background:  hsl(0, 100%, 94%);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.308);
+}
+
+.img-erro {
+    display: none;
+    width: 20px;
+    margin: 10px;
+}
+
+.msg-erro {
+    display: none;
+    color: red;
+    margin: 15px 0px 0px 30px;
+}
+
+@media screen and (max-width: 960px)  {
+
+    h1 {
+        font-size: 7vw;
+    }
+
 }
